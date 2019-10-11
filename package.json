@@ -1,0 +1,18 @@
+{
+  "name": "ngx-translate-json-from-properties",
+  "version": "1.0.0",
+  "description": "Convert properties files to simple JSON objects for ngx-translate",
+  "main": "cli.js",
+  "bin": {
+    "ngxt-jfp": "./cli.js"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "Matthew Urch",
+  "license": "GPLV3",
+  "dependencies": {
+    "properties-reader": "^0.3.1",
+    "windows-1252": "^1.0.0",
+    "yargs": "^14.2.0"
+  }
+}
