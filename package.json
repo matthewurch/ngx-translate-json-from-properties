@@ -2,6 +2,7 @@
   "name": "ngx-translate-json-from-properties",
   "version": "1.0.0",
   "description": "Convert properties files to simple JSON objects for ngx-translate",
+  "homepage": "https://github.com/mattamusprime/ngx-translate-json-from-properties",
   "main": "cli.js",
   "bin": {
     "ngxt-jfp": "./cli.js"
