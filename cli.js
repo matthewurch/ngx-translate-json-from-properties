@@ -14,7 +14,6 @@ const argv = require('yargs').option('encoding', {
 }).argv;
 
 let pathToProps = argv.input;
-
 let properties = propertiesReader();
 
 if(argv.encoding === "windows-1252") {
@@ -28,5 +27,3 @@ if(argv.encoding === "windows-1252") {
 
 let json = JSON.stringify(properties.path(), null, 2);
 console.info(json);
-
-// fs.writeFileSync(outputPath, json, 'utf-8');
