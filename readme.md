@@ -17,8 +17,6 @@ $ ngxt-jfp --help
 Options:
   --help          Show help                                            [boolean]
   --version       Show version number                                  [boolean]
-  --encoding, -e  input file encoding
-                           [choices: "utf-8", "windows-1252"] [default: "utf-8"]
   --input, -i     input file path
 ```
 
